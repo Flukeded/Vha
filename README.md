@@ -1,3 +1,3 @@
 <p align="center">
-  <img src="./hi.svg" alt="เกม: Project Zomboid" />
+  <img src="./Hi.svg" alt="เกม: Project Zomboid" />
 </p>
