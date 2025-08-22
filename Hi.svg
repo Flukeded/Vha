@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="160">
+  <defs>
+    <!-- Gradient โทนม่วง-ชมพู -->
+    <linearGradient id="cyber" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7f00ff"/>
+      <stop offset="100%" stop-color="#ff007f"/>
+    </linearGradient>
+    <!-- Glow -->
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- ข้อความ -->
+  <text x="50%" y="50%" text-anchor="middle"
+        dominant-baseline="middle"
+        font-family="Segoe UI, Roboto, 'Noto Sans Thai', sans-serif"
+        font-size="64"
+        font-weight="bold"
+        fill="url(#cyber)"
+        filter="url(#glow)">
+    เกม: Project Zomboid
+  </text>
+</svg>
